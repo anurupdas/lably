@@ -43,7 +43,9 @@ public class Admin {
     }
 
     public String getPassword() {
+        System.out.println("Hello World");
         return password;
+        
     }
 
     public void setPassword(String password) {
